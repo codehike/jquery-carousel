@@ -1,0 +1,32 @@
+.slider {
+	position: relative;
+}
+.slider > div {
+	height:150px;
+	
+}
+
+.slider > div:nth-child(1) {
+	background-color: lightblue;
+}
+
+.slider > div:nth-child(2) {
+	background-color: lightpink;
+}
+
+.slider > div:nth-child(3) {
+	background-color: lightyellow;
+}
+
+.slider > span {
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+}
+
+.slider > span.left {
+	left: 0;
+}
+.slider > span.right {
+	right: 0;
+}
